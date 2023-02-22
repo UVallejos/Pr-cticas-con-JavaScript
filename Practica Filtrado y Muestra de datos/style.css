@@ -1,0 +1,83 @@
+/*Estilo general del documento quitamos margenes y pading*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Tipo de letra del titulo, tamaño de fuenta, definimos ancho
+del Vid Wrapper y el margen*/
+#wrapper{
+    font-family: sans-serif;
+    font-size: 12pt;
+    width: 50%;
+    margin: auto;
+
+}
+
+/*Definimo el fondo de color del titulo, color de fondo de las letras
+pading y aliniacion del texto en la caja Div*/
+header{
+    margin: 5px;
+    background: darkcyan;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+
+}
+
+/*Estilos de un borde que esta al final de la tabla, lo ajusto
+con la misma anchura de wrapped para que queden centrados*/
+#divSolDatos{
+    border-bottom: 2px dotted darkcyan;
+    margin: auto;
+    width: 50%;
+}
+
+/* Estilos de separacion entre secciones de la tabla tr td */
+#solDatos tr td{
+    margin-left: 3px;
+    padding: 3px;
+
+}
+/*Agrego em margen automatico para centrar la tabla con
+la cabereca, por eso todo es auto*/
+#solDatos  {
+    margin: auto;
+}
+
+/*Con esto le digo a la DIV que tiene muestra datos que
+se ponga en el centro de la pagina, con margenes automatico
+y anchura del 50% para centrar*/
+#divMuestrDatos{
+    margin: auto;
+    width: 50%;
+}
+
+/*Con esto le digo al contenido que se encuentra dentro de la
+etiqueta tabla, que se ponga en margenes automaticos y que la 
+anchura Width del contenido respecto al tamaño de la pantalla
+sea 50%*/
+#muestraDatos{
+    margin: auto;
+    width: 50%;
+}
+
+/*Estilo de la cabecera que muestra los datos*/
+caption{
+    background: #2a64e9;
+    color: whitesmoke;
+
+
+}
+
+#muestraDatos tr th, 
+#muestraDatos tr td{
+    margin: 5px;
+    padding: 5px;
+    background-color: #45c9fc;
+}
+
+#muestraDatos tr:nth-child(){
+    background-color: black;
+}
